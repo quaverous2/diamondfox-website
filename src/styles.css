@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --oxford-blue: #0d132bff;
+  --xiketic: #03030eff;
+  --white: #fbfefdff;
+  --slate-gray: #63758cff;
+  --oxford-blue-2: #0d1c3aff;
+}
+
+body {
+  background-color: var(--xiketic);
+  color: var(--white);
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+}

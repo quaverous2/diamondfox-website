@@ -1,0 +1,35 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    /* background-color: var(--white);
+    color: var(--xiketic); */
+}
+
+.logo {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav{
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
+
+img {
+    max-width: 2em;
+    max-height: 2em;
+    margin: 1em;
+}
+
+ul {
+    display: inherit;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    width: 7em;
+}
