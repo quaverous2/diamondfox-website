@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: granjon;
+  src: url("./assets/fonts/Granjon.otf") format("opentype");
+}
+
 :root {
   --oxford-blue: #0d132bff;
   --xiketic: #03030eff;
@@ -10,6 +15,6 @@
 body {
   background-color: var(--xiketic);
   color: var(--white);
-  font-family: futura-pt, sans-serif;
-  font-style: normal;
+  font-family: 'Jost';
+  font-weight: 300;
 }
