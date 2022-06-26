@@ -5,11 +5,18 @@
     color: var(--xiketic); */
 }
 
+.wrapper:hover {
+    background-color: var(--white);
+    color: var(--oxford-blue);
+    
+}
+
 .nav{
     display: inherit;
     flex-direction: row;
     justify-content: space-between;
     width: 90%;
+    align-items: center;
 }
 
 .logo {
