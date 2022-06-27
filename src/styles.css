@@ -18,3 +18,12 @@ body {
   font-family: 'Jost';
   font-weight: 300;
 }
+
+.divider {
+  width: 95%;
+  margin-bottom: 1em;
+  border: none;
+  background-color: var(--slate-gray);
+  /* background-color: #392d23; */
+  height: 1px;
+}

@@ -1,15 +1,22 @@
 .wrapper {
     display: flex;
     justify-content: center;
+    transition: top 0.3s, background-color 0.4s ease;
+    /* background: rgbargba(0,0,0,0.8);
+    backdrop-filter: saturate(100%) blur(3px); */
+    height: 6em;
     /* background-color: var(--white);
     color: var(--xiketic); */
 }
 
-.wrapper:hover {
+/* .wrapper:hover {
     background-color: var(--white);
     color: var(--oxford-blue);
-    
 }
+
+.wrapper:hover span {
+    color: var(--slate-gray);
+} */
 
 .nav{
     display: inherit;
@@ -48,9 +55,27 @@ ul {
     padding: 0;
     text-transform: uppercase;
     font-size: 1.3em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 li {
-    width: 7.1em;
+    width: 7.5em;
+    padding: 30px;
+    transition: transform .1s;
+    padding: 10px;
+}
+
+li:hover {
+    transform: scale(1.);
+}
+
+a {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 0.8s ease, color .2s linear;
+    color: inherit;
+}
+
+a:hover {
+    /* color: var(--slate-gray); */
+    text-decoration: underline solid Currentcolor;
 }

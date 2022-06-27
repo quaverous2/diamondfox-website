@@ -4,7 +4,11 @@ import { HomeComponent } from './veiws/components/home/home.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
+    component: HomeComponent
+  },
+  {
+    path: 'works',
     component: HomeComponent
   }
 ];

@@ -1,11 +1,4 @@
-.divider {
-    width: 95%;
-    margin-bottom: 1em;
-    border: none;
-    background-color: var(--slate-gray);
-    /* background-color: #392d23; */
-    height: 1px;
-}
+
 .blocks{
     display: flex;
     flex-direction: row;
