@@ -30,6 +30,7 @@
     display: inherit;
     flex-direction: row;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo > h1 {
