@@ -9,22 +9,22 @@ const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    data: { animation: 'homePage'}
+    data: { animation: 'fader'}
   },
   {
     path: 'work',
     component: WorkComponent,
-    data: { animation: 'homePage'}
+    data: { animation: 'fader'}
   },
   {
     path: 'about',
     component: AboutComponent,
-    data: { animation: 'homePage'}
+    data: { animation: 'fader'}
   },
   {
     path: 'hire-us',
     component: HireUsComponent,
-    data: { animation: 'homePage'}
+    data: { animation: 'fader'}
   }
 ];
 

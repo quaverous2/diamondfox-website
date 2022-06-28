@@ -4,7 +4,7 @@
     transition: top 0.3s, background-color 0.4s ease;
     /* background: rgbargba(0,0,0,0.8);
     backdrop-filter: saturate(100%) blur(3px); */
-    height: 6em;
+    height: 12vh;
     /* background-color: var(--white);
     color: var(--xiketic); */
 }

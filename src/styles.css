@@ -27,3 +27,7 @@ body {
   /* background-color: #392d23; */
   height: 1px;
 }
+
+main {
+  position: relative;
+}

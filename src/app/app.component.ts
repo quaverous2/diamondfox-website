@@ -1,9 +1,13 @@
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
+import { fader } from './shared/animations/route-animations';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
+  animations: [
+    fader
+  ]
 })
 export class AppComponent {
   title = 'diamondfox-website';
@@ -26,4 +30,5 @@ export class AppComponent {
     // }
     this.lastScrollTop = scrollTop;
     }
+
 }
