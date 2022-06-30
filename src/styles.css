@@ -17,6 +17,7 @@ body {
   color: var(--white);
   font-family: 'Jost';
   font-weight: 300;
+  scroll-behavior: smooth
 }
 
 .divider {
@@ -29,5 +30,5 @@ body {
 }
 
 main {
-  position: relative;
+  /* position: relative; */
 }

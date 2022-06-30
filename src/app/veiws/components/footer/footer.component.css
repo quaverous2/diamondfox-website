@@ -1,3 +1,7 @@
+#wrapper {
+    height: 25vh;
+}
+
 
 .blocks{
     display: flex;
